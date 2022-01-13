@@ -376,7 +376,7 @@ nav {
 
   nav {
     height: 50px;
-    width: 142%;
+    width: 100%;
     background-color: #000;
   }
 
@@ -409,7 +409,7 @@ nav {
 
   .home {
     height: 720px;
-    width: 130%;
+    width: 100%;
   }
 
   .home-content h1 {
@@ -435,7 +435,7 @@ nav {
 
   .about {
     height: 800px;
-    width: 109%;
+    width: 100%;
     background-size: cover;
   }
 
@@ -484,7 +484,7 @@ nav {
 
   .skills {
     height: 300px;
-    width: 107%;
+    width: 100%;
   }
 
   .skills .title {
@@ -511,7 +511,7 @@ nav {
 
   .contact {
     height: 700px;
-    width: 107%;
+    width: 100%;
   }
 
   .contact .max-width {
@@ -667,7 +667,7 @@ nav {
 
   .footer-content {
     height: 40px;
-    width: 110%;
+    width: 100%;
     background-color: #000;
     color: #fff;
   }
