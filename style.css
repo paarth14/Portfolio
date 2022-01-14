@@ -352,7 +352,7 @@ nav {
 
   .navlink li {
     list-style: none;
-    padding: 1rem 1rem 0 0;
+    padding: 1rem 1.2rem 0 0;
     font-family: "Baloo Tammudu 2", cursive;
   }
 
@@ -371,7 +371,7 @@ nav {
   /* Home Responsive Styling Starts */
 
   .home {
-    height: 720px;
+    height: 740px;
     width: 100%;
   }
 
@@ -473,14 +473,14 @@ nav {
     text-align: center;
     justify-content: center;
     color: rgb(0, 0, 0);
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 600;
     padding: 15px 15px 1rem 8px;
     font-family: "Baloo Bhai 2", cursive;
   }
 
   .contact .contact-content .left p {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 700;
     margin-top: 5px;
     text-align: center;
