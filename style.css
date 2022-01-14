@@ -415,7 +415,7 @@ nav {
     position: absolute;
     height: 280px;
     width: 270px;
-    top: 56rem;
+    top: 53rem;
     left: 45px;
   }
 
@@ -450,9 +450,9 @@ nav {
   }
 
   .skills .skills-content .center img {
-    height: 180px;
-    border-radius: 10px;
-    width: 73%;
+    height: 188px;
+    border-radius: 5px;
+    width: 76%;
   }
 
   /* Footer Responsive Styling Starts */
