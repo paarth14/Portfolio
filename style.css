@@ -379,14 +379,14 @@ nav {
 
   .navlink li {
     list-style: none;
-    padding: 1rem 0.8rem 0 0;
+    padding: 1rem 1.2rem 0 0;
     font-family: "Baloo Tammudu 2", cursive;
   }
 
   .navlink li a {
     text-decoration: none;
     color: #fff;
-    font-size: 23px;
+    font-size: 19px;
     transition: 0.3s all ease-in-out;
   }
 
