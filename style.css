@@ -346,6 +346,12 @@ nav {
 /* Media Queries Start */
 
 @media only screen and (max-width: 600px) {
+  /* Loader gif display */
+  #loading {
+    background: #000
+      url("https://data.whicdn.com/images/344035386/original.gif") no-repeat
+      center;
+  }
   /* Navbar Responsive Styling Starts*/
 
   nav {
