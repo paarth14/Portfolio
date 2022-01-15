@@ -15,8 +15,10 @@
   position: fixed;
   width: 100%;
   height: 100vh;
-  background: #100617
+  /* background: #100617
     url("https://i.pinimg.com/originals/67/56/66/675666d840a9c8fa1c61eaf584ff2a50.gif")
+    no-repeat center; */
+  background: #000 url("https://data.whicdn.com/images/344035386/original.gif")
     no-repeat center;
   z-index: 99999;
 }
