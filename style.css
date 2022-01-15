@@ -54,13 +54,12 @@ nav {
 .navlink li a {
   text-decoration: none;
   color: #fff;
-  font-size: 23px;
+  font-size: 19px;
   transition: 0.3s all ease-in-out;
 }
 
 .navlink li a:hover {
   color: crimson;
-  text-decoration: overline;
 }
 
 /* home section styling */
@@ -82,6 +81,16 @@ nav {
   padding: 14rem 0 0.7rem 10rem;
   font-family: "Noto Sans KR", sans-serif;
   font-weight: bold;
+}
+
+.home-content span {
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .home-content p {
