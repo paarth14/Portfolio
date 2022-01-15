@@ -32,20 +32,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body>
-    <!-- Navbar Section Starts -->
-    <!-- <nav class="navbar">
-      <div class="nav-content">
-          <ul class="menu-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-      </div>
-
-    </nav> -->
-
+  <body onload="myFunction()">
+    <div id="loading"></div>
     <nav>
       <ul class="navlink">
         <li><a href="#home">Home</a></li>
@@ -57,7 +45,6 @@
 
     <!-- Home Section Starts -->
     <section class="home" id="home">
-      <!-- <div class="max-width"> -->
       <div class="home-content">
         <h1>Hi, I'm Paarth Kothari</h1>
         <p>And I'm a, Web Enthusiast</p>
@@ -150,15 +137,7 @@
       <p>
         Designed with <i class="fa fa-heart pulse"></i> by
         <strong>Paarth Kothari</strong>
-        <!-- <a
-          href="https://www.linkedin.com/in/paarth-kothari-10567619a/"
-          target="_blank"
-        >
-          <strong>Paarth Kothari</strong></a
-        > -->
       </p>
-
-      <!-- <p>Special thanks to <a href = "https://www.linkedin.com/in/kotharidhruv/" target="_blank"> <strong>Dhruv Kothari</strong></a></p> -->
     </div>
 
     <script
@@ -167,6 +146,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="script.js"></script>
+    <script>
+      let preloader = document.getElementById("loading");
+      setTimeout(function myFunction() {
+        preloader.style.display = "none";
+      }, 5000);
+    </script>
   </body>
 </html>
