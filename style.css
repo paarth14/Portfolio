@@ -58,6 +58,7 @@ nav {
   height: 50px;
   width: 100%;
   background-color: #000;
+  position: fixed;
 }
 
 .navlink {
